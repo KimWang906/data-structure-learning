@@ -2,7 +2,7 @@
 
 ## **선형 Queue**
 
-* **선형 Queue**는 `선입선출(FIFO, First in first out)` 방식의 자료구조
+* **선형 Queue**는 **`선입선출(FIFO, First in first out)`** 방식의 자료구조
 
 * [눈으로 선형 Queue를 확인해보기(head = front, Tail = rear)](https://www.cs.usfca.edu/~galles/visualization/QueueArray.html)
 
@@ -250,7 +250,7 @@ void destroyQueue(Queue *q)
 
   * ex) **`rear`** 또는 **`front`** 가 **16** 일 때, `삽입 / 삭제`를 하게 되면 위치는 **`(16 + 1) % 5`** 이므로 **2**가 된다.
 
-* 원형 Queue의 문제는 Full 상태와 Empty 상태일 때 front와 rear의 값이 같으므로 Full과 Empty 상태를 구분하지 못한다.  
+* 원형 Queue의 문제는 **`Full`** 상태와 **`Empty`** 상태일 때 front와 rear의 값이 같으므로 Full과 Empty 상태를 구분하지 못한다.  
 → 이를 해결하기 위해 front와 rear 사이에 하나의 공백을 둔다.  
 
 ### **원형 Queue - Source code**
